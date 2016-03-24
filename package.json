@@ -24,5 +24,16 @@
     "strip-sourcemap-loader": "0.0.1"
   },
   "name": "whatson",
-  "description": "WhatsOn: An Ionic project"
+  "description": "WhatsOn: An Ionic project",
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [
+    "android"
+  ]
 }

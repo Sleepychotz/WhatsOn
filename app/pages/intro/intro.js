@@ -1,5 +1,5 @@
 import {Page, NavController} from 'ionic-angular';
-import {TabsPage} from '../tabs/tabs';
+import {LoginPage} from '../login/login';
 
 @Page({
   templateUrl: 'build/pages/intro/intro.html',
@@ -13,7 +13,7 @@ export class IntroPage {
     this.nav = nav;
 }
 
-goToHome(){
-    this.nav.setRoot(TabsPage);
+goToLogin(){
+    this.nav.setRoot(LoginPage);
 }
 }
